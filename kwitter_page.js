@@ -1,4 +1,15 @@
-
+var firebaseConfig = {
+  apiKey: "AIzaSyB5KDHN_QJx3e3erjjRlzgxAd-kiFEAiGQ",
+  authDomain: "class95-ead72.firebaseapp.com",
+  databaseURL: "https://class95-ead72-default-rtdb.firebaseio.com",
+  projectId: "class95-ead72",
+  storageBucket: "class95-ead72.appspot.com",
+  messagingSenderId: "611194102291",
+  appId: "1:611194102291:web:736df2c1763614522495e6",
+  measurementId: "G-HCNRN7WCLD"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 
 user_name = localStorage.getItem("user_name");
